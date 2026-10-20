@@ -20,7 +20,7 @@ export const profile = {
   stats: [
     { value: '7+', label: 'Years of experience' },
     { value: '4', label: 'Organizations' },
-    { value: '5+', label: 'Enterprise systems delivered' },
+    { value: '50+', label: 'Projects delivered' },
     { value: '3', label: 'Sectors: Gov, ERP, E-commerce' },
   ],
 }
@@ -91,6 +91,22 @@ export const projects = [
     tags: ['Vue.js', 'REST API', 'E-commerce'],
     live: 'https://jamshaidcomputer.vercel.app/',
     featured: true,
+  },
+  {
+    name: 'School Management System',
+    type: 'Live Demo',
+    description:
+      'School management demo with a dashboard, student records (search, add, delete), daily attendance and fee tracking. Runs on sample data in your browser.',
+    tags: ['Vue.js', 'Tailwind CSS', 'Dashboard'],
+    live: '/demos/school/',
+  },
+  {
+    name: 'Pizza Shop Ordering System',
+    type: 'Live Demo',
+    description:
+      'Pizza shop demo with a menu, size and topping options, cart, checkout (delivery or pickup) and a kitchen view to move orders through their stages. Runs on sample data in your browser.',
+    tags: ['Vue.js', 'Tailwind CSS', 'Order Management'],
+    live: '/demos/pizza/',
   },
   {
     name: 'PWD SPU – Population Welfare',
