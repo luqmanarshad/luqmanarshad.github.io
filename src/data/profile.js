@@ -99,6 +99,7 @@ export const projects = [
       'School management demo with a dashboard, student records (search, add, delete), daily attendance and fee tracking. Runs on sample data in your browser.',
     tags: ['Vue.js', 'Tailwind CSS', 'Dashboard'],
     live: '/demos/school/',
+    repo: 'https://github.com/luqmanarshad/school-management-demo',
   },
   {
     name: 'Pizza Shop Ordering System',
@@ -107,6 +108,7 @@ export const projects = [
       'Pizza shop demo with a menu, size and topping options, cart, checkout (delivery or pickup) and a kitchen view to move orders through their stages. Runs on sample data in your browser.',
     tags: ['Vue.js', 'Tailwind CSS', 'Order Management'],
     live: '/demos/pizza/',
+    repo: 'https://github.com/luqmanarshad/pizza-shop-demo',
   },
   {
     name: 'PWD SPU – Population Welfare',
