@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translation Management Service – API Docs | Luqman Arshad</title>
+    <meta name="description" content="Interactive API reference for the Translation Management Service, a Laravel 13 REST API for multi-locale translations." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5.17.14/swagger-ui.css" />
+    <style>
+      body { margin: 0; background: #fff; font-family: system-ui, sans-serif; }
+      .banner { background: #0f172a; color: #e2e8f0; padding: 14px 20px; font-size: 14px; line-height: 1.5; }
+      .banner a { color: #a5b4fc; }
+      .swagger-ui .topbar { display: none; }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <strong>Translation Management Service</strong> &middot; Laravel 13 / PHP 8.3 REST API.
+      This page is the API reference (read-only; no live backend).
+      <a href="https://github.com/luqmanarshad/translation-management-service" target="_blank" rel="noopener">Source &amp; setup on GitHub ↗</a>
+      &middot; <a href="/#projects">Back to portfolio</a>
+    </div>
+    <div id="swagger-ui"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5.17.14/swagger-ui-bundle.js"></script>
+    <script>
+      window.ui = SwaggerUIBundle({
+        url: '/demos/translation-api/openapi.yaml',
+        dom_id: '#swagger-ui',
+        deepLinking: true,
+        docExpansion: 'list',
+        supportedSubmitMethods: [],
+      })
+    </script>
+  </body>
+</html>
