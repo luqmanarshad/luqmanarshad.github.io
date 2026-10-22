@@ -102,15 +102,6 @@ export const projects = [
     featured: true,
   },
   {
-    name: 'Translation Management Service',
-    type: 'Backend REST API',
-    description:
-      'Laravel 13 API for storing, tagging, searching and exporting translations across multiple locales. Handles 100k+ keys with a cached JSON export under 500ms, MySQL FULLTEXT search, Sanctum token auth, Docker setup and PHPUnit tests.',
-    tags: ['Laravel', 'PHP 8.3', 'MySQL', 'REST API', 'Docker'],
-    repo: 'https://github.com/luqmanarshad/translation-management-service',
-    featured: true,
-  },
-  {
     name: 'School Management System',
     type: 'Live Demo',
     description:
