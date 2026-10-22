@@ -11,7 +11,6 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         school: resolve(__dirname, 'demos/school/index.html'),
         pizza: resolve(__dirname, 'demos/pizza/index.html'),
-        translationApi: resolve(__dirname, 'demos/translation-api/index.html'),
       },
     },
   },
