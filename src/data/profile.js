@@ -84,6 +84,15 @@ export const experience = [
 
 export const projects = [
   {
+    name: 'PixelToPDF Pro',
+    type: 'All-in-One File Converter',
+    description:
+      'Free, private file converter and studio for PDFs, images and audio: compress PDFs up to 90%, convert images to PDF, resize images to a target size, remove backgrounds with AI and resample audio to 44.1kHz. Everything runs in the browser, so files are never uploaded to a server.',
+    tags: ['Next.js', 'WebAssembly', 'AI', 'PDF Tools'],
+    live: 'https://pixeltopdf-pro.vercel.app/',
+    featured: true,
+  },
+  {
     name: 'Lapzo Store',
     type: 'Full Stack E-Commerce',
     description:
